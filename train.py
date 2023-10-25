@@ -63,7 +63,7 @@ def train(d_model, g_model, gan_model, dataset, n_epochs=100, n_batch=1):
 			summarize_performance(i, g_model, dataset)
 			
 if __name__ == '__main__':
-    path =  './maps/val/'
+    path =  './maps/train/'
     save_compressed_npy(path, 'maps_256.npz')
 	# load image data
     dataset = load_real_samples('maps_256.npz')
