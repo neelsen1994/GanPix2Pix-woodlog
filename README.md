@@ -20,6 +20,6 @@ This project addresses a critical challenge in the wood processing industry – 
 
 Please note that the dataset used in this project is proprietary and owned by a company client of Fraunhofer IPM. Unfortunately, we are unable to provide public access to the dataset due to legal and confidentiality agreements. The focus of this repository is to showcase the code, methodology, and results derived from the dataset.
 
-This is a test output after training the model with the company dataset from the forest and the test image is obtained from Google.
+This is a test output after training the model with the company dataset from the forest.
 
 ![Test Output](imgs/plot_050000.png)
