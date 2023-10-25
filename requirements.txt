@@ -1,0 +1,9 @@
+pep8==1.7.1
+autopep8==2.0.1
+#fiona==1.9.1
+#geopandas==0.12.2
+pillow==9.4.0
+opencv-python==4.8.0.76
+tensorflow-gpu==2.8.0
+protobuf==3.20.*
+matplotlib
