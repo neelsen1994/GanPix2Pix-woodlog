@@ -1,4 +1,4 @@
-# Enhancing Wood Log Surface Quality for Siamese Network-Based Identification Using Pix2Pix GAN
+# Enhancing Wood Log Surface Quality Using Pix2Pix GAN
 
 This project addresses a critical challenge in the wood processing industry – the accurate identification of wood logs despite damage and variations caused by processing conditions. This innovative work leverages state-of-the-art deep learning techniques, specifically Pix2Pix Generative Adversarial Networks (GANs), to transform degraded wood log images into pristine representations which enhances the visibility of the annual ring patterns for identification. The resulting enhanced images are then seamlessly integrated into a Siamese Network for precise and reliable wood log identification.
 
@@ -14,12 +14,20 @@ This project addresses a critical challenge in the wood processing industry – 
 
 5. __Future Expansion:__ The work opens up avenues for further research and development in the application of advanced deep learning techniques for industrial image analysis. Future work may include additional feature extraction methods, improving network architectures, and integrating the system into wood processing facilities.
 
-# Demo Result
-
-## Dataset Notice
-
-Please note that the dataset used in this project is proprietary and owned by a company client of Fraunhofer IPM. Unfortunately, we are unable to provide public access to the dataset due to legal and confidentiality agreements. The focus of this repository is to showcase the code, methodology, and results derived from the dataset.
+## Demo Result
 
 This is a test output after training the model with the company dataset from the forest.
 
 ![Test Output](imgs/plot_050000.png)
+
+### Dataset Notice
+
+Please note that the dataset used in this project is proprietary and owned by a company client of Fraunhofer IPM. Unfortunately, we are unable to provide public access to the dataset due to legal and confidentiality agreements. The focus of this repository is to showcase the code, methodology, and results derived from the dataset.
+
+## References
+
+Key research papers that provided in-depth insights into the model workings include:
+  
+  * Ian J. Goodfellow et al. 2014, [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
+  * Mehdi Mirza, Simon Osindero 2014, [Conditional Generative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf)
+  * Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros 2018, [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004.pdf)
